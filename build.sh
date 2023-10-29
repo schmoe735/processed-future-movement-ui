@@ -1,0 +1,1 @@
+docker build -t schmoe735/processed-future-movement-ui:0.0.1-SNAPSHOT .

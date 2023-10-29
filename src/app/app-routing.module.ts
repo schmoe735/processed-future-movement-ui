@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ReportComponent } from './report/report.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'daily-summary/:client', component: ReportComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
