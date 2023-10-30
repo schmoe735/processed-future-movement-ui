@@ -1,11 +1,14 @@
 <div>
 
-  <div class="header">  
-    <p-button label="Log In as 1234" [style]="{marginRight: '5px'}"  (onClick)="login('1234')"></p-button>
-    
-    <p-button label="Log In as 4321" (onClick)="login('4321')"></p-button>
+  <div class="header">
+    <h2>Daily Summary Report</h2>
+
   </div>
-  
+  <div class="header">
+    <p-button label="1234" [style]="{marginRight: '5px'}"  (onClick)="login('1234')"></p-button>
+    
+    <p-button label="4321" (onClick)="login('4321')"></p-button>
+  </div>
   <div class="container">
     <router-outlet/>
   </div>
